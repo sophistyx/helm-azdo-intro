@@ -1,5 +1,5 @@
 parameters:
-  projectName: ''
+  projectName: 'helm-azdo-intro'
 
 variables:
   helmVersion: 3.4.1
