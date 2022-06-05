@@ -13,7 +13,8 @@ steps:
         --service-principal \
         -u $(aksSpId) \
         -p '$(aksSpSecret)' \
-        --tenant $(aksSpTenantId)
+        --tenant 0eaed314-d919-4684-a76c-83c8b6730ea0
+        # --tenant $(aksSpTenantId)
     
     # note that in a cluster integrated with AAD, get-credentials
     # is not sufficient AND make sure the spn has the required
