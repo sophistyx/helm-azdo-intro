@@ -23,7 +23,8 @@ steps:
     az aks get-credentials \
         -n $(aks) \
         -g $(rg) \
-        --admin
+        --admin \
+        --only-show-errors
 
     # in K8S AAD cluster, use kubelogin to convert the kube config obtained
     # in the previous step
